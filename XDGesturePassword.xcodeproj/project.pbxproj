@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5F804CD1BCDEF3F00C3CF69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F804CC1BCDEF3F00C3CF69 /* main.m */; };
+		A5F804D01BCDEF3F00C3CF69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F804CF1BCDEF3F00C3CF69 /* AppDelegate.m */; };
+		A5F804D81BCDEF3F00C3CF69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F804D71BCDEF3F00C3CF69 /* Assets.xcassets */; };
+		A5F804DB1BCDEF3F00C3CF69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F804D91BCDEF3F00C3CF69 /* LaunchScreen.storyboard */; };
+		A5F804E61BCDEF3F00C3CF69 /* XDGesturePasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F804E51BCDEF3F00C3CF69 /* XDGesturePasswordTests.m */; };
+		A5F804F11BCDEF3F00C3CF69 /* XDGesturePasswordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F804F01BCDEF3F00C3CF69 /* XDGesturePasswordUITests.m */; };
+		A5F805001BCDEFB900C3CF69 /* XDGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F804FF1BCDEFB900C3CF69 /* XDGestureView.m */; settings = {ASSET_TAGS = (); }; };
+		A5F805031BCDEFD100C3CF69 /* XDGestureConfigVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F805021BCDEFD100C3CF69 /* XDGestureConfigVC.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5F804E21BCDEF3F00C3CF69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F804C01BCDEF3F00C3CF69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F804C71BCDEF3F00C3CF69;
+			remoteInfo = XDGesturePassword;
+		};
+		A5F804ED1BCDEF3F00C3CF69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F804C01BCDEF3F00C3CF69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F804C71BCDEF3F00C3CF69;
+			remoteInfo = XDGesturePassword;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5F804C81BCDEF3F00C3CF69 /* XDGesturePassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDGesturePassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F804CC1BCDEF3F00C3CF69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5F804CE1BCDEF3F00C3CF69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5F804CF1BCDEF3F00C3CF69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5F804D71BCDEF3F00C3CF69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5F804DA1BCDEF3F00C3CF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5F804DC1BCDEF3F00C3CF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F804E11BCDEF3F00C3CF69 /* XDGesturePasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDGesturePasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F804E51BCDEF3F00C3CF69 /* XDGesturePasswordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDGesturePasswordTests.m; sourceTree = "<group>"; };
+		A5F804E71BCDEF3F00C3CF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F804EC1BCDEF3F00C3CF69 /* XDGesturePasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDGesturePasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F804F01BCDEF3F00C3CF69 /* XDGesturePasswordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDGesturePasswordUITests.m; sourceTree = "<group>"; };
+		A5F804F21BCDEF3F00C3CF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F804FE1BCDEFB900C3CF69 /* XDGestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDGestureView.h; sourceTree = "<group>"; };
+		A5F804FF1BCDEFB900C3CF69 /* XDGestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDGestureView.m; sourceTree = "<group>"; };
+		A5F805011BCDEFD100C3CF69 /* XDGestureConfigVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDGestureConfigVC.h; sourceTree = "<group>"; };
+		A5F805021BCDEFD100C3CF69 /* XDGestureConfigVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDGestureConfigVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5F804C51BCDEF3F00C3CF69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F804DE1BCDEF3F00C3CF69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F804E91BCDEF3F00C3CF69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5F804BF1BCDEF3F00C3CF69 = {
+			isa = PBXGroup;
+			children = (
+				A5F804CA1BCDEF3F00C3CF69 /* XDGesturePassword */,
+				A5F804E41BCDEF3F00C3CF69 /* XDGesturePasswordTests */,
+				A5F804EF1BCDEF3F00C3CF69 /* XDGesturePasswordUITests */,
+				A5F804C91BCDEF3F00C3CF69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F804C91BCDEF3F00C3CF69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F804C81BCDEF3F00C3CF69 /* XDGesturePassword.app */,
+				A5F804E11BCDEF3F00C3CF69 /* XDGesturePasswordTests.xctest */,
+				A5F804EC1BCDEF3F00C3CF69 /* XDGesturePasswordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F804CA1BCDEF3F00C3CF69 /* XDGesturePassword */ = {
+			isa = PBXGroup;
+			children = (
+				A5F804CE1BCDEF3F00C3CF69 /* AppDelegate.h */,
+				A5F804CF1BCDEF3F00C3CF69 /* AppDelegate.m */,
+				A5F804FE1BCDEFB900C3CF69 /* XDGestureView.h */,
+				A5F804FF1BCDEFB900C3CF69 /* XDGestureView.m */,
+				A5F805011BCDEFD100C3CF69 /* XDGestureConfigVC.h */,
+				A5F805021BCDEFD100C3CF69 /* XDGestureConfigVC.m */,
+				A5F804D91BCDEF3F00C3CF69 /* LaunchScreen.storyboard */,
+				A5F804CB1BCDEF3F00C3CF69 /* Supporting Files */,
+			);
+			path = XDGesturePassword;
+			sourceTree = "<group>";
+		};
+		A5F804CB1BCDEF3F00C3CF69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5F804D71BCDEF3F00C3CF69 /* Assets.xcassets */,
+				A5F804DC1BCDEF3F00C3CF69 /* Info.plist */,
+				A5F804CC1BCDEF3F00C3CF69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5F804E41BCDEF3F00C3CF69 /* XDGesturePasswordTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5F804E51BCDEF3F00C3CF69 /* XDGesturePasswordTests.m */,
+				A5F804E71BCDEF3F00C3CF69 /* Info.plist */,
+			);
+			path = XDGesturePasswordTests;
+			sourceTree = "<group>";
+		};
+		A5F804EF1BCDEF3F00C3CF69 /* XDGesturePasswordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5F804F01BCDEF3F00C3CF69 /* XDGesturePasswordUITests.m */,
+				A5F804F21BCDEF3F00C3CF69 /* Info.plist */,
+			);
+			path = XDGesturePasswordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5F804C71BCDEF3F00C3CF69 /* XDGesturePassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F804F51BCDEF3F00C3CF69 /* Build configuration list for PBXNativeTarget "XDGesturePassword" */;
+			buildPhases = (
+				A5F804C41BCDEF3F00C3CF69 /* Sources */,
+				A5F804C51BCDEF3F00C3CF69 /* Frameworks */,
+				A5F804C61BCDEF3F00C3CF69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDGesturePassword;
+			productName = XDGesturePassword;
+			productReference = A5F804C81BCDEF3F00C3CF69 /* XDGesturePassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5F804E01BCDEF3F00C3CF69 /* XDGesturePasswordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F804F81BCDEF3F00C3CF69 /* Build configuration list for PBXNativeTarget "XDGesturePasswordTests" */;
+			buildPhases = (
+				A5F804DD1BCDEF3F00C3CF69 /* Sources */,
+				A5F804DE1BCDEF3F00C3CF69 /* Frameworks */,
+				A5F804DF1BCDEF3F00C3CF69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F804E31BCDEF3F00C3CF69 /* PBXTargetDependency */,
+			);
+			name = XDGesturePasswordTests;
+			productName = XDGesturePasswordTests;
+			productReference = A5F804E11BCDEF3F00C3CF69 /* XDGesturePasswordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5F804EB1BCDEF3F00C3CF69 /* XDGesturePasswordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F804FB1BCDEF3F00C3CF69 /* Build configuration list for PBXNativeTarget "XDGesturePasswordUITests" */;
+			buildPhases = (
+				A5F804E81BCDEF3F00C3CF69 /* Sources */,
+				A5F804E91BCDEF3F00C3CF69 /* Frameworks */,
+				A5F804EA1BCDEF3F00C3CF69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F804EE1BCDEF3F00C3CF69 /* PBXTargetDependency */,
+			);
+			name = XDGesturePasswordUITests;
+			productName = XDGesturePasswordUITests;
+			productReference = A5F804EC1BCDEF3F00C3CF69 /* XDGesturePasswordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5F804C01BCDEF3F00C3CF69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XD;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = wenjunhuang;
+				TargetAttributes = {
+					A5F804C71BCDEF3F00C3CF69 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					A5F804E01BCDEF3F00C3CF69 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A5F804C71BCDEF3F00C3CF69;
+					};
+					A5F804EB1BCDEF3F00C3CF69 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A5F804C71BCDEF3F00C3CF69;
+					};
+				};
+			};
+			buildConfigurationList = A5F804C31BCDEF3F00C3CF69 /* Build configuration list for PBXProject "XDGesturePassword" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5F804BF1BCDEF3F00C3CF69;
+			productRefGroup = A5F804C91BCDEF3F00C3CF69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5F804C71BCDEF3F00C3CF69 /* XDGesturePassword */,
+				A5F804E01BCDEF3F00C3CF69 /* XDGesturePasswordTests */,
+				A5F804EB1BCDEF3F00C3CF69 /* XDGesturePasswordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5F804C61BCDEF3F00C3CF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F804DB1BCDEF3F00C3CF69 /* LaunchScreen.storyboard in Resources */,
+				A5F804D81BCDEF3F00C3CF69 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F804DF1BCDEF3F00C3CF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F804EA1BCDEF3F00C3CF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5F804C41BCDEF3F00C3CF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F805031BCDEFD100C3CF69 /* XDGestureConfigVC.m in Sources */,
+				A5F804D01BCDEF3F00C3CF69 /* AppDelegate.m in Sources */,
+				A5F804CD1BCDEF3F00C3CF69 /* main.m in Sources */,
+				A5F805001BCDEFB900C3CF69 /* XDGestureView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F804DD1BCDEF3F00C3CF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F804E61BCDEF3F00C3CF69 /* XDGesturePasswordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F804E81BCDEF3F00C3CF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F804F11BCDEF3F00C3CF69 /* XDGesturePasswordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5F804E31BCDEF3F00C3CF69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5F804C71BCDEF3F00C3CF69 /* XDGesturePassword */;
+			targetProxy = A5F804E21BCDEF3F00C3CF69 /* PBXContainerItemProxy */;
+		};
+		A5F804EE1BCDEF3F00C3CF69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5F804C71BCDEF3F00C3CF69 /* XDGesturePassword */;
+			targetProxy = A5F804ED1BCDEF3F00C3CF69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5F804D91BCDEF3F00C3CF69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F804DA1BCDEF3F00C3CF69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5F804F31BCDEF3F00C3CF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5F804F41BCDEF3F00C3CF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5F804F61BCDEF3F00C3CF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XDGesturePassword/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weibo.kongkongss.XDGesturePassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5F804F71BCDEF3F00C3CF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XDGesturePassword/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weibo.kongkongss.XDGesturePassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5F804F91BCDEF3F00C3CF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XDGesturePasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weibo.kongkongss.XDGesturePasswordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDGesturePassword.app/XDGesturePassword";
+			};
+			name = Debug;
+		};
+		A5F804FA1BCDEF3F00C3CF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XDGesturePasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weibo.kongkongss.XDGesturePasswordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDGesturePassword.app/XDGesturePassword";
+			};
+			name = Release;
+		};
+		A5F804FC1BCDEF3F00C3CF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XDGesturePasswordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weibo.kongkongss.XDGesturePasswordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XDGesturePassword;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A5F804FD1BCDEF3F00C3CF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XDGesturePasswordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weibo.kongkongss.XDGesturePasswordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XDGesturePassword;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5F804C31BCDEF3F00C3CF69 /* Build configuration list for PBXProject "XDGesturePassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F804F31BCDEF3F00C3CF69 /* Debug */,
+				A5F804F41BCDEF3F00C3CF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F804F51BCDEF3F00C3CF69 /* Build configuration list for PBXNativeTarget "XDGesturePassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F804F61BCDEF3F00C3CF69 /* Debug */,
+				A5F804F71BCDEF3F00C3CF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5F804F81BCDEF3F00C3CF69 /* Build configuration list for PBXNativeTarget "XDGesturePasswordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F804F91BCDEF3F00C3CF69 /* Debug */,
+				A5F804FA1BCDEF3F00C3CF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5F804FB1BCDEF3F00C3CF69 /* Build configuration list for PBXNativeTarget "XDGesturePasswordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F804FC1BCDEF3F00C3CF69 /* Debug */,
+				A5F804FD1BCDEF3F00C3CF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5F804C01BCDEF3F00C3CF69 /* Project object */;
+}
