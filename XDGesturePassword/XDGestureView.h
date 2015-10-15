@@ -10,17 +10,18 @@
 
 @class XDGestureView;
 
-@protocol XDGestureViewDelegate <NSObject>
+static NSString* const kXDGesturePWKey = @"kXDGesturePWKey";
 
+@protocol XDGestureViewDelegate <NSObject>
 @optional;
 - (void)gesturePasswordView:(XDGestureView*) passwordView didStartedWithSequence:(NSUInteger) sequence;
-- (void)gesturePasswordView:(XDGestureView*) passwordView didMovedWithActiveCircle:(char *)active;
-- (void)gesturePasswordView:(XDGestureView*) passwordView didEndInputWithPassword:(NSString*) password touchedCount:(NSUInteger)touchedCount sequence:(NSUInteger) sequence;
+- (void)gesturePasswordView:(XDGestureView*) passwordView didMovedWithTouchedArcs:(char *)touchedArcs;
+- (void)gesturePasswordView:(XDGestureView*) passwordView didEndInputWithPassword:(NSString*) password touchedCount:(NSUInteger)touchedCount touchedArcs:(char *)touchedArcs sequence:(NSUInteger) sequence;
 @end
 
 @interface XDGestureView : UIView
 - (instancetype)initWithFrame:(CGRect)frame isShowView:(BOOL)isShowView;
-- (void)setAcitveCircle:(char *)activeCircle;
+- (void)setTouchedArcs:(char *)tocuhedArcs;
 - (UIColor *)getSelectedColor;
 - (void)reset;
 

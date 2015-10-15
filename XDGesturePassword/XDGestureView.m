@@ -37,7 +37,7 @@ UIColorWithRGB(float r, float g, float b, float a)
 
 - (void)dealloc
 {
-    free(_touchedArcs);
+//    free(_touchedArcs);
     free(_arcCenters);
 }
 
@@ -166,17 +166,17 @@ UIColorWithRGB(float r, float g, float b, float a)
     _curPoint.y = point.y;
     [self setNeedsDisplay];
     
-    if ([self.delegate respondsToSelector:@selector(gesturePasswordView:didMovedWithActiveCircle:)]) {
-        [self.delegate gesturePasswordView:self didMovedWithActiveCircle:_touchedArcs];
+    if ([self.delegate respondsToSelector:@selector(gesturePasswordView:didMovedWithTouchedArcs:)]) {
+        [self.delegate gesturePasswordView:self didMovedWithTouchedArcs:_touchedArcs];
     }
     
 }
 
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    if ([self.delegate respondsToSelector:@selector(gesturePasswordView:didEndInputWithPassword:touchedCount: sequence:)]) {
+    if ([self.delegate respondsToSelector:@selector(gesturePasswordView:didEndInputWithPassword:touchedCount:touchedArcs:sequence:)] && [self getTouchedCount] > 0) {
         NSString *passwordStr = [NSString stringWithUTF8String:_touchedArcs];
-        [self.delegate gesturePasswordView:self didEndInputWithPassword:passwordStr touchedCount:[self getTouchedCount] sequence:_sequence];
+        [self.delegate gesturePasswordView:self didEndInputWithPassword:passwordStr touchedCount:[self getTouchedCount] touchedArcs:_touchedArcs sequence:_sequence];
     }
     _curPoint.x = _curPoint.y = 0;
 }
@@ -259,11 +259,11 @@ UIColorWithRGB(float r, float g, float b, float a)
     [self setNeedsDisplay];
 }
 
-- (void)setAcitveCircle:(char *)activeCircle
+- (void)setTouchedArcs:(char *)tocuhedArcs
 {
     int count = sizeof(_touchedArcs) /sizeof(char);
     for (int i=0; i <count; i++) {
-        *(_touchedArcs+i) = *(activeCircle +i);
+        *(_touchedArcs+i) = *(tocuhedArcs +i);
     }
     [self setNeedsDisplay];
 }
@@ -290,6 +290,7 @@ UIColorWithRGB(float r, float g, float b, float a)
     for (int i=0; i<9; i++) {
         if (_touchedArcs[i] == 0) {
             touchedCount = i;
+            break;
         }
     }
     return touchedCount;

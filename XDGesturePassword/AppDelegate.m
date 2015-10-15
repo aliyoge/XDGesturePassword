@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "XDGestureConfigVC.h"
+#import "XDGestureHomeVC.h"
 
 @interface AppDelegate ()
 
@@ -18,7 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    [self.window setRootViewController:[XDGestureConfigVC new]];
+    UINavigationController *naviVC = [[UINavigationController alloc] initWithRootViewController:[XDGestureHomeVC new]];
+    [self.window setRootViewController:naviVC];
     [self.window makeKeyAndVisible];
     return YES;
 }
