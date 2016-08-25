@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5E84E9D1BCF498E00AC546C /* XDGestureLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E84E9C1BCF498E00AC546C /* XDGestureLoginVC.m */; settings = {ASSET_TAGS = (); }; };
-		A5E84EA01BCF7C9800AC546C /* XDGestureHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E84E9F1BCF7C9800AC546C /* XDGestureHomeVC.m */; settings = {ASSET_TAGS = (); }; };
+		A56A97EB1D6E973700D3AE22 /* XDGestureConfigVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A97E61D6E973700D3AE22 /* XDGestureConfigVC.m */; };
+		A56A97EC1D6E973700D3AE22 /* XDGestureLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A97E81D6E973700D3AE22 /* XDGestureLoginVC.m */; };
+		A56A97ED1D6E973700D3AE22 /* XDGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A97EA1D6E973700D3AE22 /* XDGestureView.m */; };
+		A5E84EA01BCF7C9800AC546C /* XDGestureHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E84E9F1BCF7C9800AC546C /* XDGestureHomeVC.m */; };
 		A5F804CD1BCDEF3F00C3CF69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F804CC1BCDEF3F00C3CF69 /* main.m */; };
 		A5F804D01BCDEF3F00C3CF69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F804CF1BCDEF3F00C3CF69 /* AppDelegate.m */; };
 		A5F804D81BCDEF3F00C3CF69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F804D71BCDEF3F00C3CF69 /* Assets.xcassets */; };
 		A5F804DB1BCDEF3F00C3CF69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F804D91BCDEF3F00C3CF69 /* LaunchScreen.storyboard */; };
 		A5F804E61BCDEF3F00C3CF69 /* XDGesturePasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F804E51BCDEF3F00C3CF69 /* XDGesturePasswordTests.m */; };
 		A5F804F11BCDEF3F00C3CF69 /* XDGesturePasswordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F804F01BCDEF3F00C3CF69 /* XDGesturePasswordUITests.m */; };
-		A5F805001BCDEFB900C3CF69 /* XDGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F804FF1BCDEFB900C3CF69 /* XDGestureView.m */; settings = {ASSET_TAGS = (); }; };
-		A5F805031BCDEFD100C3CF69 /* XDGestureConfigVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F805021BCDEFD100C3CF69 /* XDGestureConfigVC.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A5E84E9B1BCF498E00AC546C /* XDGestureLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDGestureLoginVC.h; sourceTree = "<group>"; };
-		A5E84E9C1BCF498E00AC546C /* XDGestureLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDGestureLoginVC.m; sourceTree = "<group>"; };
+		A56A97E51D6E973700D3AE22 /* XDGestureConfigVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDGestureConfigVC.h; sourceTree = "<group>"; };
+		A56A97E61D6E973700D3AE22 /* XDGestureConfigVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDGestureConfigVC.m; sourceTree = "<group>"; };
+		A56A97E71D6E973700D3AE22 /* XDGestureLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDGestureLoginVC.h; sourceTree = "<group>"; };
+		A56A97E81D6E973700D3AE22 /* XDGestureLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDGestureLoginVC.m; sourceTree = "<group>"; };
+		A56A97E91D6E973700D3AE22 /* XDGestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDGestureView.h; sourceTree = "<group>"; };
+		A56A97EA1D6E973700D3AE22 /* XDGestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDGestureView.m; sourceTree = "<group>"; };
 		A5E84E9E1BCF7C9800AC546C /* XDGestureHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDGestureHomeVC.h; sourceTree = "<group>"; };
 		A5E84E9F1BCF7C9800AC546C /* XDGestureHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDGestureHomeVC.m; sourceTree = "<group>"; };
 		A5F804C81BCDEF3F00C3CF69 /* XDGesturePassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDGesturePassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,10 +58,6 @@
 		A5F804EC1BCDEF3F00C3CF69 /* XDGesturePasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDGesturePasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F804F01BCDEF3F00C3CF69 /* XDGesturePasswordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDGesturePasswordUITests.m; sourceTree = "<group>"; };
 		A5F804F21BCDEF3F00C3CF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5F804FE1BCDEFB900C3CF69 /* XDGestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDGestureView.h; sourceTree = "<group>"; };
-		A5F804FF1BCDEFB900C3CF69 /* XDGestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDGestureView.m; sourceTree = "<group>"; };
-		A5F805011BCDEFD100C3CF69 /* XDGestureConfigVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDGestureConfigVC.h; sourceTree = "<group>"; };
-		A5F805021BCDEFD100C3CF69 /* XDGestureConfigVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDGestureConfigVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +85,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A56A97E41D6E973700D3AE22 /* XDGesture */ = {
+			isa = PBXGroup;
+			children = (
+				A56A97E51D6E973700D3AE22 /* XDGestureConfigVC.h */,
+				A56A97E61D6E973700D3AE22 /* XDGestureConfigVC.m */,
+				A56A97E71D6E973700D3AE22 /* XDGestureLoginVC.h */,
+				A56A97E81D6E973700D3AE22 /* XDGestureLoginVC.m */,
+				A56A97E91D6E973700D3AE22 /* XDGestureView.h */,
+				A56A97EA1D6E973700D3AE22 /* XDGestureView.m */,
+			);
+			path = XDGesture;
+			sourceTree = "<group>";
+		};
 		A5F804BF1BCDEF3F00C3CF69 = {
 			isa = PBXGroup;
 			children = (
@@ -108,14 +121,9 @@
 		A5F804CA1BCDEF3F00C3CF69 /* XDGesturePassword */ = {
 			isa = PBXGroup;
 			children = (
+				A56A97E41D6E973700D3AE22 /* XDGesture */,
 				A5F804CE1BCDEF3F00C3CF69 /* AppDelegate.h */,
 				A5F804CF1BCDEF3F00C3CF69 /* AppDelegate.m */,
-				A5F804FE1BCDEFB900C3CF69 /* XDGestureView.h */,
-				A5F804FF1BCDEFB900C3CF69 /* XDGestureView.m */,
-				A5F805011BCDEFD100C3CF69 /* XDGestureConfigVC.h */,
-				A5F805021BCDEFD100C3CF69 /* XDGestureConfigVC.m */,
-				A5E84E9B1BCF498E00AC546C /* XDGestureLoginVC.h */,
-				A5E84E9C1BCF498E00AC546C /* XDGestureLoginVC.m */,
 				A5E84E9E1BCF7C9800AC546C /* XDGestureHomeVC.h */,
 				A5E84E9F1BCF7C9800AC546C /* XDGestureHomeVC.m */,
 				A5F804D91BCDEF3F00C3CF69 /* LaunchScreen.storyboard */,
@@ -282,12 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5F805031BCDEFD100C3CF69 /* XDGestureConfigVC.m in Sources */,
 				A5F804D01BCDEF3F00C3CF69 /* AppDelegate.m in Sources */,
+				A56A97EC1D6E973700D3AE22 /* XDGestureLoginVC.m in Sources */,
+				A56A97EB1D6E973700D3AE22 /* XDGestureConfigVC.m in Sources */,
 				A5F804CD1BCDEF3F00C3CF69 /* main.m in Sources */,
-				A5E84E9D1BCF498E00AC546C /* XDGestureLoginVC.m in Sources */,
-				A5F805001BCDEFB900C3CF69 /* XDGestureView.m in Sources */,
 				A5E84EA01BCF7C9800AC546C /* XDGestureHomeVC.m in Sources */,
+				A56A97ED1D6E973700D3AE22 /* XDGestureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

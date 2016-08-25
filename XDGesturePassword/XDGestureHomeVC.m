@@ -28,6 +28,14 @@
 - (void)btnClicked:(UIButton *)btn
 {
     if (btn == self.loginBtn) {
+        if (![[NSUserDefaults standardUserDefaults] objectForKey:kXDGesturePWKey]) {
+            UIAlertView *alertView = [UIAlertView new];
+            alertView.title = @"提示";
+            alertView.message = @"请先设置手势密码！";
+            [alertView addButtonWithTitle:@"取消"];
+            [alertView show];
+            return;
+        }
         [self presentViewController:[XDGestureLoginVC new] animated:YES completion:nil];
     }
     else
